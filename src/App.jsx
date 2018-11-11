@@ -31,7 +31,7 @@ class App extends Component<Props, State> {
     const { count } = this.state;
     return (
       <div>
-        <h1>{count}</h1>
+        <h1>{count + 1}</h1>
         <MyButton name="Click Me" countFunc={this.countFunc} />
       </div>
     );
